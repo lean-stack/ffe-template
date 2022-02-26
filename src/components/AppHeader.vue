@@ -7,6 +7,7 @@
     <b-collapse id="app-nav" is-nav>
       <b-navbar-nav class="ml-auto level-1">
         <b-nav-item to="/">Home</b-nav-item>
+        <b-nav-item to="/gh">GitHub</b-nav-item>
         <b-nav-item-dropdown right text="D3">
           <b-dropdown-item to="/d3/lcd">Line Chart Static</b-dropdown-item>
           <b-dropdown-item to="/d3/dcd">Line Chart Dynamic</b-dropdown-item>

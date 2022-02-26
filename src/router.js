@@ -4,6 +4,7 @@ import VueRouter from 'vue-router';
 // Views
 import Home from '@/views/Home.vue';
 import About from '@/views/About.vue';
+import GHAccounts from '@/views/GHAccounts.vue';
 import DataAndMethods from '@/views/komponenten/DataAndMethods.vue';
 import Directives from '@/views/komponenten/Direktiven.vue';
 import Computed from '@/views/komponenten/Computed.vue';
@@ -19,6 +20,7 @@ import DynamicChartDemo from '@/views/d3/DynamicChartDemo.vue';
 const routes = [
   { path: '/', component: Home },
   { path: '/about', component: About },
+  { path: '/gh', component: GHAccounts },
   { path: '/komponenten/data-methods', component: DataAndMethods },
   { path: '/komponenten/directives', component: Directives },
   { path: '/komponenten/computed', name: 'computed', component: Computed },
