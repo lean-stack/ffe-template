@@ -26,7 +26,7 @@ export default {
   mounted() {
     this.$refs.docLink.classList.remove('text-white');
     this.$refs.docLink.classList.add('text-light');
-    console.log(this.$el);
+    // console.log(this.$el);  // DOM-Baum der Komponente
   },
 };
 </script>

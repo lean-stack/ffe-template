@@ -10,6 +10,7 @@ import Computed from '@/views/komponenten/Computed.vue';
 import Properties from '@/views/komponenten/Properties.vue';
 import Slots from '@/views/komponenten/Slots.vue';
 import TemplateRefs from '@/views/komponenten/TemplateRefs.vue';
+import LineChartDemo from '@/views/d3/LineChartDemo.vue';
 
 /**
  * @type { import("vue-router").RouteConfig[] }
@@ -23,6 +24,7 @@ const routes = [
   { path: '/komponenten/props', name: 'props', component: Properties },
   { path: '/komponenten/slots', name: 'slots', component: Slots },
   { path: '/komponenten/refs', name: 'refs', component: TemplateRefs },
+  { path: '/d3/lcd', component: LineChartDemo },
   { path: '/:pathMatch(.*)*', component: Home },
 ];
 
