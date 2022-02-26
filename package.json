@@ -1,0 +1,19 @@
+{
+  "scripts": {
+    "serve": "vite",
+    "build": "vite build",
+    "format": "prettier . --write"
+  },
+  "dependencies": {
+    "bootstrap": "^4.6.1",
+    "bootstrap-vue": "^2.21.2",
+    "vue": "^2.6.14",
+    "vue-router": "^3.5.3"
+  },
+  "devDependencies": {
+    "sass": "~1.32.13",
+    "vite": "^2.8.4",
+    "vite-plugin-vue2": "^1.9.3"
+  },
+  "name": "ffe-template"
+}
