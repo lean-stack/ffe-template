@@ -11,6 +11,7 @@ import Properties from '@/views/komponenten/Properties.vue';
 import Slots from '@/views/komponenten/Slots.vue';
 import TemplateRefs from '@/views/komponenten/TemplateRefs.vue';
 import LineChartDemo from '@/views/d3/LineChartDemo.vue';
+import DynamicChartDemo from '@/views/d3/DynamicChartDemo.vue';
 
 /**
  * @type { import("vue-router").RouteConfig[] }
@@ -25,6 +26,7 @@ const routes = [
   { path: '/komponenten/slots', name: 'slots', component: Slots },
   { path: '/komponenten/refs', name: 'refs', component: TemplateRefs },
   { path: '/d3/lcd', component: LineChartDemo },
+  { path: '/d3/dcd', component: DynamicChartDemo },
   { path: '/:pathMatch(.*)*', component: Home },
 ];
 

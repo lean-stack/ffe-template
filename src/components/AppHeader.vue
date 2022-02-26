@@ -9,6 +9,7 @@
         <b-nav-item to="/">Home</b-nav-item>
         <b-nav-item-dropdown right text="D3">
           <b-dropdown-item to="/d3/lcd">Line Chart Static</b-dropdown-item>
+          <b-dropdown-item to="/d3/dcd">Line Chart Dynamic</b-dropdown-item>
         </b-nav-item-dropdown>
         <b-nav-item-dropdown right text="Komponenten">
           <b-dropdown-item to="/komponenten/data-methods"
