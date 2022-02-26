@@ -10,6 +10,8 @@ Vue.use(IconsPlugin);
 
 // Router
 import router from '@/router.js';
+// Matomo
+import './matomo.js';
 
 // The App
 import App from '@/App.vue';
