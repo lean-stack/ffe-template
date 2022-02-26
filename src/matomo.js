@@ -29,7 +29,7 @@ export default function configureMatomo(router) {
 
     // Require consent before sending tracking information to matomo
     // Default: false
-    requireConsent: false,
+    requireConsent: true,
 
     // Whether to track the initial page view
     // Default: true
@@ -41,7 +41,7 @@ export default function configureMatomo(router) {
 
     // Require consent before creating matomo session cookie
     // Default: false
-    requireCookieConsent: false,
+    requireCookieConsent: true,
 
     // Enable the heartbeat timer (https://developer.matomo.org/guides/tracking-javascript-guide#accurately-measure-the-time-spent-on-each-page)
     // Default: false
