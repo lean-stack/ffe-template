@@ -8,6 +8,8 @@ import DataAndMethods from '@/views/komponenten/DataAndMethods.vue';
 import Directives from '@/views/komponenten/Direktiven.vue';
 import Computed from '@/views/komponenten/Computed.vue';
 import Properties from '@/views/komponenten/Properties.vue';
+import Slots from '@/views/komponenten/Slots.vue';
+import TemplateRefs from '@/views/komponenten/TemplateRefs.vue';
 
 /**
  * @type { import("vue-router").RouteConfig[] }
@@ -19,6 +21,8 @@ const routes = [
   { path: '/komponenten/directives', component: Directives },
   { path: '/komponenten/computed', name: 'computed', component: Computed },
   { path: '/komponenten/props', name: 'props', component: Properties },
+  { path: '/komponenten/slots', name: 'slots', component: Slots },
+  { path: '/komponenten/refs', name: 'refs', component: TemplateRefs },
   { path: '/:pathMatch(.*)*', component: Home },
 ];
 

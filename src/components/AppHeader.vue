@@ -16,6 +16,8 @@
           >
           <b-dropdown-item :to="{ name: 'computed' }">Computed</b-dropdown-item>
           <b-dropdown-item :to="{ name: 'props' }">Properties</b-dropdown-item>
+          <b-dropdown-item :to="{ name: 'slots' }">Slots</b-dropdown-item>
+          <b-dropdown-item :to="{ name: 'refs' }">Refs</b-dropdown-item>
         </b-nav-item-dropdown>
         <li class="nav-item">
           <router-link class="nav-link" to="/about">About</router-link>
