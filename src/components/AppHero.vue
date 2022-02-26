@@ -2,6 +2,8 @@
   <div class="hero">
     <div class="hero-container text-light">
       <slot />
+      <hr v-if="$slots.footer" class="bg-light" />
+      <slot name="footer" />
     </div>
   </div>
 </template>

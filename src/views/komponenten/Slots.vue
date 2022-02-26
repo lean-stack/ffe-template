@@ -19,14 +19,22 @@
           >Link zu Doc</a
         >
       </p>
+      <template v-slot:footer>Das steht unterm Strich</template>
     </app-hero>
+    <div class="container mt-4 text-center">
+      <slot-button>
+        <b-icon-app-indicator />
+        <span class="ml-2">Icon Demo </span>
+      </slot-button>
+    </div>
   </div>
 </template>
 
 <script>
 import AppHero from '@/components/AppHero.vue';
+import SlotButton from './SlotButton.vue';
 export default {
-  components: { AppHero },
+  components: { AppHero, SlotButton },
 };
 </script>
 

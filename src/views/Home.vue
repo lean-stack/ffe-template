@@ -1,7 +1,12 @@
 <template>
   <div>
     <app-hero>
-      <h2>Home</h2>
+      <template #default>
+        <h2>Home</h2>
+      </template>
+      <template #footer>
+        Kleine Anwendung mit diversen Vue-Beispielen
+      </template>
     </app-hero>
     <div class="content mt-4 text-center">
       <button
